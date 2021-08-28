@@ -20,7 +20,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        I spend a lot of time thinking about my flaws. This is an outlet for these many thoughts.
+        I spend a lot of time thinking about myself, my world, and my surroundings.
+        This is an outlet for these thoughts.
       </p>
 
     </section>

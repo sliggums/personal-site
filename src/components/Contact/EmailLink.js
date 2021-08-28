@@ -24,7 +24,7 @@ const messages = [
   'admin',
   'or-I-really-like-your-website',
   'thanks',
-];
+]; // todo: update
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
@@ -81,7 +81,7 @@ const EmailLink = () => {
         <span>@mldangelo.com</span>
       </a>
     </div>
-  );
+  ); // todo - update
 };
 
 export default EmailLink;
