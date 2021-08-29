@@ -9,7 +9,12 @@
 	#sidebar {
 		margin-right: _size(section-spacing);
 		min-width: 22em;
-		width: 22em;
+    width: 22em;
+    
+    a {
+      text-transform: lowercase;
+      letter-spacing: 0.04em;
+    }
 
 		> * {
 			border-top: solid 1px _palette(border);

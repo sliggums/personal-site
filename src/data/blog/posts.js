@@ -1,9 +1,16 @@
 const posts = [
   {
-    postDate: "Jan 2020",
-    title: "Test",
-    image: "Temp"
-  }
-]
+    id: 1,
+    postDate: 'Jan 2020',
+    title: 'Tesfdsfsdfsfst',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+];
 
-export default courses;
+export default posts;
