@@ -11,6 +11,60 @@ const posts = [
     title: 'Test',
     image: 'Temp',
   },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
+  {
+    id: 2,
+    postDate: 'Jan 2020',
+    title: 'Test',
+    image: 'Temp',
+  },
 ];
 
 export default posts;

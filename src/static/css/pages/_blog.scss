@@ -2,30 +2,38 @@
 
 #blogs {
   .post {
-    padding: (_size(element-margin) * 0.7);
+    padding: (_size(element-margin));
     margin: 0 0 (_size(element-margin) * 0.8) 0;
   }
 
-  h1 {
+  h2 {
     color: _palette(fg-bold);
     font-family: _font(family-heading);
     font-weight: _font(weight-heading-bold);
-    letter-spacing: 0.04em;
-    line-height: 1.65;
-    margin: 0 0 (_size(element-margin) * 0.5) 0;
+    letter-spacing: 0.02em;
+    line-height: 0.8em;
     text-transform: none;
     font-size: calc(1.5em + 0.4vw);
   }
 
   p {
     margin: 0;
-    font-size: calc(12px + 0.4vw);
+    line-height: normal;
+  }
+
+  hr {
+    margin: 1em 0.3em;
   }
 
   .blog-title {
-    margin: 0;
+    margin: 0 0 (_size(element-margin) * 0.2) 0;
+  }
+  
+  .blog-date {
+    font-size: 14px;
   }
 
-  .blog-date {
+  .post-text {
+    font-size: calc(12px + 0.4vw);
   }
 }

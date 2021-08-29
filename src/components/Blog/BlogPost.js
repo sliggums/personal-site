@@ -3,12 +3,17 @@ import PropTypes from 'prop-types';
 
 const BlogPost = ({ data }) => (
   <div className="post" id={data.id}>
-    <h1 className="blog-title">{data.title}</h1>
-    <p className="blog-date">
-      {data.postDate}
-      <br />
-      test
-    </p>
+    <h2 className="blog-title">{data.title}</h2>
+    <div className="blog-date">
+      <p> {data.postDate} </p>
+    </div>
+    <hr />
+    <div className="post-text">
+      <p>
+        test testtesttesttest <br />
+        test
+      </p>
+    </div>
   </div>
 );
 
