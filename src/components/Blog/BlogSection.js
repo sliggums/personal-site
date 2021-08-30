@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import BlogPost from './BlogPost';
+import BlogSnapshot from './BlogSnapshot';
 
 const getPosts = (posts) => posts.map((post) => (
-  <BlogPost data={post} />
+  <BlogSnapshot
+    data={post}
+    cutoff
+  />
 ));
 
 const BlogSection = ({ data }) => (
@@ -19,6 +22,7 @@ BlogSection.propTypes = {
     postDate: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     image: PropTypes.string,
+    text: PropTypes.string.isRequired,
   })),
 };
 
