@@ -10,14 +10,14 @@ const posts = [
   },
   {
     id: 2,
-    postDate: 'Jan 2020',
+    postDate: 'Feb 2020',
     title: 'Test',
     image: 'Temp',
     text: 'test1.txt',
   },
   {
     id: 3,
-    postDate: 'Jan 2020',
+    postDate: 'March 2020',
     title: 'Hi test',
     image: 'Temp',
     text: 'hi test',

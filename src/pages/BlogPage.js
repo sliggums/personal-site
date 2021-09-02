@@ -16,7 +16,7 @@ const BlogPage = () => {
   const params = useParams();
   const parsed = Number(params.id);
   return (
-    <Main title={params.id}>
+    <Main>
       <div id="blogs">
         {!Number.isNaN(parsed) && postMapping.has(parsed)
           ? <BlogSnapshot data={postMapping.get(parsed)} />
