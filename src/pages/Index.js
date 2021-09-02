@@ -5,14 +5,14 @@ import BlogSection from '../components/Blog/BlogSection';
 
 import posts from '../data/blog/posts';
 
-const BATCH_SIZE = 1;
+const BATCH_SIZE = 3;
 
 const Index = () => {
   const rev = posts.reduce((r, e, i) => (i % BATCH_SIZE
     ? r[r.length - 1].push(e) : r.push([e])) && r, []);
 
   const [idx, updateIdx] = useState(rev.length - 1);
-  const [postsToShow, updatePostsToShow] = useState(rev[idx]);
+  const [postsToShow, updatePostsToShow] = useState(rev[idx].reverse());
 
   const next = (() => updateIdx((currIdx) => Math.max(currIdx - 1, 0), [idx]));
   const prev = (() => updateIdx((currIdx) => Math.min(currIdx + 1, rev.length - 1), [idx]));
