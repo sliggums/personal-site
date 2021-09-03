@@ -23,7 +23,7 @@ const Index = () => {
     <Main description={"Steve Wang's thoughts"}>
       <div id="outer">
         <BlogSection data={postsToShow} />
-        {idx < rev.length - 1 ? <button className="prev-button" type="button" onClick={prev}>recent</button> : null}
+        {idx < rev.length - 1 ? <button className="prev-button" type="button" onClick={prev}>newer</button> : null}
         {idx > 0 ? <button className="next-button" type="button" onClick={next}>older</button> : null}
       </div>
     </Main>
