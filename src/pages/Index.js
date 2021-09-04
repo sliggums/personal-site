@@ -14,10 +14,10 @@ const Index = () => {
   const [idx, updateIdx] = useState(rev.length - 1);
   const [postsToShow, updatePostsToShow] = useState(rev[idx].reverse());
 
-  const next = (() => updateIdx((currIdx) => Math.max(currIdx - 1, 0), [idx]));
-  const prev = (() => updateIdx((currIdx) => Math.min(currIdx + 1, rev.length - 1), [idx]));
+  const next = (() => updateIdx((currIdx) => Math.max(currIdx - 1, 0)));
+  const prev = (() => updateIdx((currIdx) => Math.min(currIdx + 1, rev.length - 1)));
 
-  useEffect(() => updatePostsToShow(rev[idx]));
+  useEffect(() => updatePostsToShow(() => rev[idx]), [idx]);
 
   return (
     <Main description={"Steve Wang's thoughts"}>
